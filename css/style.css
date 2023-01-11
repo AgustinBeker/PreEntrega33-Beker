@@ -435,13 +435,16 @@ body {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: 40px;
     }
     .cartel-imagen{ 
         width: 50%;
+        justify-content: center;
     }
         
     .cartel{
         width: 50%;
+        justify-content: center;
     }
     .container-burger div {
         display: flex;
@@ -449,10 +452,10 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        margin-top: 40px;
+    }
 }
-
-
-
 
 
 @media (min-width: 768px){
