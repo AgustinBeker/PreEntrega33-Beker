@@ -112,11 +112,11 @@ body {
     outline-offset: calc(var(--s)/-2);
     cursor: pointer;
     transition: 0.3s;
-  }
-  .container-burger div img:hover {
+}
+.container-burger div img:hover {
     outline: var(--b) solid var(--c);
     outline-offset: var(--g);
-  }
+}
 
 
 .img-principal{
@@ -129,8 +129,9 @@ body {
 .container-imagenes{
     width: 100%;
     display: flex;
-    gap: 30px;
+    gap: 200px;
     justify-content: center;
+    margin-top: 10px;
 }
 
 
@@ -144,7 +145,7 @@ body {
 
 .cartel-imagen{ 
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     width: 50%;
 }
@@ -205,8 +206,8 @@ body {
 }
 
 .flecha1 img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 /* FIN PEDIDOS */
