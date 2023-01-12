@@ -343,17 +343,11 @@ body {
 }
 
 
-.footer div a img{ 
-    margin: 5px 10px 5px 10px;
-    height:30px;
-}
-
-
-
 .container-footer {
     display: flex;
     top: 50%;
     left: 50%;
+    padding-left:0;
 }
 
 .container-footer li {
@@ -361,16 +355,16 @@ body {
 }
 
 .container-footer li a {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    font-size: 35px;
+    font-size: 23px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     z-index: 1;
 }
 
