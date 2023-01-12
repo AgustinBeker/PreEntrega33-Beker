@@ -105,7 +105,6 @@ body {
     width: 175px;
     height: 175px;
     border-radius: 10px;
-    
     width: var(--s);
     aspect-ratio: 1;
     outline: calc(var(--s)/2) solid #0009;
@@ -216,8 +215,6 @@ body {
 
 .container-nosotros{
     padding: 30px 10px 30px 10px;
-    margin-left: 400px;
-    margin-right: 400px;
     margin-top: 30px;
     border-color: white;
     border-width: 1px;
@@ -239,8 +236,6 @@ body {
     font-style: normal;
     font-weight: 200;
     font-size: 22px;
-    margin-bottom: 300px;
-    line-height: 29px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -341,6 +336,7 @@ body {
     font-style: normal;
     font-weight: 200;
     font-size: 10px;
+    text-align: -webkit-center;
 }
 
 
@@ -457,6 +453,13 @@ body {
             margin: 50px 50px 50px 50px;
             background: rgba(255, 0, 0, 0.71);
         }
+        .nosotros{
+            font-size: 25px;
+        }
+        
+        .texto-nosotros{
+            font-size: 15px;
+        }
 }
 
 
@@ -521,6 +524,14 @@ body {
         text-align: center;
         margin: 50px 50px 50px 50px;
         background: rgba(255, 0, 0, 0.71);
+    }
+
+    .nosotros{
+        font-size: 50px;
+    }
+    
+    .texto-nosotros{
+        font-size: 14px;
     }
 }
 
